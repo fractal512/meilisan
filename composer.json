@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fractal512\\Meilisan": "src/"
+            "Fractal512\\Meilisan\\": "src/"
         }
     },
     "extra": {
