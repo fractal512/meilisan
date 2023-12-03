@@ -1,0 +1,35 @@
+{
+    "name": "fractal512/meilisan",
+    "description": "Meilisearch methods wrapper for Laravel Artisan",
+    "keywords": [
+        "meilisearch",
+        "artisan",
+        "console"
+    ],
+    "homepage": "https://github.com/fractal512/meilisan",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fractal512",
+            "email": "fractal512.web.dev@gmail.com",
+            "homepage": "https://github.com/fractal512",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0",
+        "meilisearch/meilisearch-php": "^1.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fractal512\\Meilisan": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fractal512\\Meilisan\\MeilisanServiceProvider"
+            ]
+        }
+    }
+}
