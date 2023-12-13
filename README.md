@@ -3,7 +3,7 @@
 This wrapper helps to manage [Meilisearch](https://www.meilisearch.com/) functionality via console using Laravel Artisan.
 
 ### Table of Contents
-- [Installation](#documentation)
+- [Installation](#installation)
 - [Usage](#usage)
   - [Filterable Attributes](#filterable-attributes)
   - [Ranking Rules](#ranking-rules)
