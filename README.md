@@ -2,6 +2,13 @@
 
 This wrapper helps to manage [Meilisearch](https://www.meilisearch.com/) functionality via console using Laravel Artisan.
 
+### Table of Contents
+- [Installation](#-documentation)
+- [Usage](#-usage)
+  - [Filterable Attributes](#-filterable-attributes)
+  - [Ranking Rules](#-ranking-rules)
+  - [Sortable Attributes](#-sortable-attributes)
+
 ### Installation
 Install the package using composer:
 ```
@@ -20,6 +27,16 @@ Arguments:
 - action - action on filterable attributes (get, set, reset)
 - index - name of index in Meilisearch database
 - attributes - comma-separated list of filterable attributes to set
+
+#### Ranking Rules
+To manage [ranking rules](https://www.meilisearch.com/docs/learn/core_concepts/relevancy) for the Meilisearch index use command:
+```
+php artisan meilisearch:ranking <action> <index> [<attributes>]
+```
+Arguments:
+- action - action on ranking rules (get, set, reset)
+- index - name of index in Meilisearch database
+- attributes - comma-separated list of ranking rules to set
 
 #### Sortable Attributes
 To manage [sortable attributes](https://www.meilisearch.com/docs/learn/fine_tuning_results/sorting) for the Meilisearch index use command:
